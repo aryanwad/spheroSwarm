@@ -1,0 +1,65 @@
+.CreateAccount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #2C4684FF;
+    color: white;
+}
+
+.create-account-container {
+    background: #141D3FFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+}
+
+h1 {
+    color: #81AFDDFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+label {
+    font-weight: bold;
+    color: #81AFDDFF;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #81AFDDFF;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #81AFDDFF;
+}
+
+button {
+    background: #81AFDDFF;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+button:hover {
+    background: #2C4684FF;
+    color: white;
+}
